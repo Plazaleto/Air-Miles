@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args)  {
-        int price = 16000;
+        int ticketPrice = 16000;
         int bonus = 1;
         int rubles = 20;
-        int finalBonus = price / rubles * bonus;
+        int finalBonus = ticketPrice / rubles * bonus;
         System.out.println(finalBonus);
     }
 }
